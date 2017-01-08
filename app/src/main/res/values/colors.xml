@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5E5E5E</color>
+    <color name="colorPrimaryDark">#414141</color>
+    <color name="colorAccent">#607D8B</color>
+    <color name="snackAction">#FFC107</color>
+    <color name="tracking">#FF9326</color>
+    <color name="dismiss">#F44336</color>
+</resources>
