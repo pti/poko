@@ -54,12 +54,12 @@ public class ItemTouchDrawer {
                         y0 + (iconAreaH - iconLeft.getHeight()) / 2, null);
             }
 
-        } else {
+        } else if (dX < 0) {
             int x0 = item.getRight();
             int y0 = item.getTop();
 
             if (paintRight != null) {
-                c.drawRect(x0, y0, x0 + dX, y0 + item.getHeight(), paintRight);
+                c.drawRect(x0 + dX, y0, x0, y0 + item.getHeight(), paintRight);
             }
 
             if (iconRight != null) {
